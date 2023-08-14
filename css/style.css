@@ -6,3 +6,8 @@ html {
 h1 {
   color: #6287bf;
 }
+
+h2 {
+  color: #3e567b;
+  text-decoration: underline;
+}
