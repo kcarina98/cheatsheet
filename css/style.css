@@ -33,6 +33,7 @@ h2:hover {
   border-radius: 10px;
   background-color: white;
   color: #151e2b;
+  transition: 1s;
 }
 
 ol {
