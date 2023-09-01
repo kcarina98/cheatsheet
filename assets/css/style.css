@@ -1,62 +1,106 @@
-html {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  background-color: #151e2b;
-  width: 800px;
-  margin: 100px auto;
-  padding: 20px 20px;
-  border: 1px solid #6287bf;
-  border-radius: 18px;
+@font-face {
+  font-family: delius;
+  src: url("../font/Delius-Regular.ttf");
+}
+
+@font-face {
+  font-family: lico;
+  src: url("../font/Licorice-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: lico;
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1581431886211-6b932f8367f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=5070&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 h1 {
-  color: #6287bf;
   text-align: center;
-  text-shadow: 3px 2px #000000;
+  margin: 10vh auto 5vh auto;
+  color: #102c57;
+  font-size: 15rem;
+  font-weight: 100;
 }
+
+nav {
+  margin: 0 35%;
+}
+
+nav a {
+  text-decoration: none;
+  color: #102c57;
+  font-size: 5rem;
+}
+
+nav div {
+  height: 50px;
+}
+
+nav a:hover {
+  color: #102c578f;
+  transition: 0.5s;
+}
+
+/* - css für repo */
 
 h2 {
-  color: white;
-  margin: 0 auto;
-  border-radius: 10px;
-  padding: 10px 25px;
-  width: fit-content;
-  background-color: #151e2b;
-  border: 1px solid white;
-  border-radius: 10 px;
-  font-size: 100%;
-  text-align: center;
-}
-
-h2:hover {
-  border: 1px solid #6287bf;
-  border-radius: 10px;
-  background-color: white;
-  color: #151e2b;
-  transition: 1s;
-}
-
-ol {
-  color: white;
-}
-
-ul:hover {
-  background-color: #2f425d;
-}
-
-ol:hover {
-  background-color: #2f425d;
+  color: #860e0ec1;
+  font-size: 2.5rem;
+  margin: 20px auto 10px 30%;
+  font-family: delius;
 }
 
 h3 {
-  color: #6287bf;
-  font-size: 100%;
+  color: #102c57;
+  font-size: 2rem;
+  margin: 20px auto 10px 32%;
+  font-family: delius;
 }
 
-span {
-  text-decoration: underline;
+h3 span {
+  color: #102c57;
+  font-size: 2rem;
+  font-family: delius;
 }
-span:hover {
-  background-color: #6287bf;
-  color: white;
+
+ol li,
+ul li {
+  color: #102c57;
+  font-size: 1.6rem;
+  font-family: delius;
+  margin-left: 33%;
+}
+
+.back {
+  color: #102c57;
+  position: fixed;
+  font-size: 1.6rem;
+  font-family: delius;
+  bottom: 5vh;
+  left: 60%;
+}
+
+/* -branch style */
+
+p {
+  color: #102c57;
+  font-size: 1.6rem;
+  font-family: delius;
+  margin-left: 30%;
+  width: 38%;
+  margin-bottom: 10px;
+}
+
+li span {
+  color: #6e5045;
+  font-size: 1.6rem;
+  font-family: delius;
 }
